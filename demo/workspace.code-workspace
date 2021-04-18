@@ -1,8 +1,7 @@
 {
-	"folders": [
-		{
-			"path": ".."
-		}
-	],
-	"settings": {}
+    "folders": [
+        {
+            "path": "..\\..\\admin-one-bulma-dashboard-master\\demo"
+        }
+    ]
 }
