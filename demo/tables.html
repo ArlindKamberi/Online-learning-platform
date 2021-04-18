@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="en" class="has-aside-left has-aside-mobile-transition has-navbar-fixed-top has-aside-expanded" style="background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,30,230,0.8122957801284576) 41%, rgba(207,45,45,1) 100%);;;"></html>
+<html lang="en" class="has-aside-left has-aside-mobile-transition has-navbar-fixed-top has-aside-expanded">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lectures</title>
+
+
+  <link rel="stylesheet" href="css/main.min.css">
+
+
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="app">
+  <nav id="navbar-main" class="navbar is-fixed-top">
+    <div class="navbar-brand">
+      <a class="navbar-item is-hidden-desktop jb-aside-mobile-toggle">
+        <span class="icon"><i class="mdi mdi-forwardburger mdi-24px"></i></span>
+      </a>
+      <div class="navbar-item has-control">
+        <div class="control"><input placeholder="Search everywhere..." class="input"></div>
+      </div>
+    </div>
+    <div class="navbar-brand is-right">
+      <a class="navbar-item is-hidden-desktop jb-navbar-menu-toggle" data-target="navbar-menu">
+        <span class="icon"><i class="mdi mdi-dots-vertical"></i></span>
+      </a>
+    </div>
+    <div class="navbar-menu fadeIn animated faster" id="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item has-dropdown has-dropdown-with-icons has-divider is-hoverable">
+          <a class="navbar-link is-arrowless">
+           
+          </a>
+          <div class="navbar-dropdown">
+            <a href="profile.html" class="navbar-item">
+              <span class="icon"><i class="mdi mdi-account"></i></span>
+              <span>My Profile</span>
+            </a>
+            <a class="navbar-item">
+              <span class="icon"><i class="mdi mdi-settings"></i></span>
+              <span>Settings</span>
+            </a>
+            <a class="navbar-item">
+              <span class="icon"><i class="mdi mdi-email"></i></span>
+              <span>Messages</span>
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              <span class="icon"><i class="mdi mdi-logout"></i></span>
+              <span>Log Out</span>
+            </a>
+          </div>
+        </div>
+        <div class="navbar-item has-dropdown has-dropdown-with-icons has-divider has-user-avatar is-hoverable">
+          <a class="navbar-link is-arrowless">
+            <div class="is-user-avatar">
+              <img src="https://avatars.dicebear.com/v2/initials/Filan-Fisteku.svg" alt="Filan Fisteku">
+            </div>
+            <div class="is-user-name"><span>Filan FIsteku</span></div>
+            <span class="icon"><i class="mdi mdi-chevron-down"></i></span>
+          </a>
+          <div class="navbar-dropdown">
+            <a href="profile.html" class="navbar-item">
+              <span class="icon"><i class="mdi mdi-account"></i></span>
+              <span>My Profile</span>
+            </a>
+            <a class="navbar-item">
+              <span class="icon"><i class="mdi mdi-settings"></i></span>
+              <span>Settings</span>
+            </a>
+            <a class="navbar-item">
+              <span class="icon"><i class="mdi mdi-email"></i></span>
+              <span>Messages</span>
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item">
+              <span class="icon"><i class="mdi mdi-logout"></i></span>
+              <span>Log Out</span>
+            </a>
+          </div>
+        </div>
+        <a href="https://justboil.me/bulma-admin-template/one-html" title="About" class="navbar-item has-divider is-desktop-icon-only">
+          <span class="icon"><i class="mdi mdi-help-circle-outline"></i></span>
+          <span>About</span>
+        </a>
+        <a title="Log out" class="navbar-item is-desktop-icon-only">
+          <span class="icon"><i class="mdi mdi-logout"></i></span>
+          <span>Log out</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <aside class="aside is-placed-left is-expanded">
+    <div class="aside-tools">
+      <div class="aside-tools-label">
+        <span><b>VE RI TAS </b> Exam Platform</span>
+      </div>
+    </div>
+    <div class="menu is-menu-main">
+      <p class="menu-label">General</p>
+      <ul class="menu-list">
+        <li>
+          <a href="index.html" class="has-icon">
+            <span class="icon"><i class="mdi mdi-desktop-mac"></i></span>
+            <span class="menu-item-label">Dashboard</span>
+          </a>
+        </li>
+      </ul>
+      <p class="menu-label">Examples</p>
+      <ul class="menu-list">
+        <li>
+          <a href="tables.html" class="is-active has-icon">
+            <span class="icon has-update-mark"><i class="mdi mdi-table"></i></span>
+            <span class="menu-item-label">Tables</span>
+          </a>
+        </li>
+        <li>
+          <a href="forms.html" class="has-icon">
+            <span class="icon"><i class="mdi mdi-square-edit-outline"></i></span>
+            <span class="menu-item-label">Request form</span>
+          </a>
+        </li>
+        <li>
+          <a href="profile.html" class="has-icon">
+            <span class="icon"><i class="mdi mdi-account-circle"></i></span>
+            <span class="menu-item-label">Profile</span>
+          </a>
+        </li>
+        <li>
+          <a class="has-icon has-dropdown-icon">
+            <span class="icon"><i class="mdi mdi-view-list"></i></span>
+            <span class="menu-item-label">Submenus</span>
+            <div class="dropdown-icon">
+              <span class="icon"><i class="mdi mdi-plus"></i></span>
+            </div>
+          </a>
+          <ul>
+            <li>
+              <a href="#void">
+                <span>Sub-item One</span>
+              </a>
+            </li>
+            <li>
+              <a href="#void">
+                <span>Sub-item Two</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <p class="menu-label">About</p>
+      <ul class="menu-list">
+        <li>
+          <a href="https://admin-one-html.justboil.me/" target="_blank" class="has-icon">
+            <span class="icon"><i class="mdi mdi-credit-card-outline"></i></span>
+            <span class="menu-item-label">Premium Demo</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://justboil.me/bulma-admin-template/one-html" class="has-icon">
+            <span class="icon"><i class="mdi mdi-help-circle"></i></span>
+            <span class="menu-item-label">About</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+  <section class="section is-title-bar">
+    <div class="level">
+      <div class="level-left">
+        <div class="level-item">
+          <ul>
+           
+            <li>Tables</li>
+          </ul>
+        </div>
+      </div>
+     
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="hero is-hero-bar">
+    <div class="hero-body">
+      <div class="level">
+        <div class="level-left">
+          <div class="level-item"><h1 class="title">
+              Exam Sections
+          </h1></div>
+        </div>
+        <div class="level-right" style="display: none;">
+          <div class="level-item"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section is-main-section">
+    <div class="notification is-info">
+      <div class="level">
+        <div class="level-left">
+          <div class="level-item">
+            <div>
+              <span class="icon"><i class="mdi mdi-buffer default"></i></span>
+              <b>SAT </b> Math Section
+            </div>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    <div class="card has-table">
+      <header class="card-header">
+        <p class="card-header-title">
+          <span class="icon"><i class="mdi mdi-account-multiple"></i></span>
+          Lectures
+        </p>
+        <a href="#" class="card-header-icon">
+          <span class="icon"><i class="mdi mdi-reload"></i></span>
+        </a>
+      </header>
+      <div class="card-content">
+        <div class="b-table has-pagination">
+          <div class="table-wrapper has-mobile-cards">
+            <table class="table is-fullwidth is-striped is-hoverable is-fullwidth">
+              <thead>
+              <tr>
+
+                <th></th>
+                <th>Section</th>
+                <th>Chapter</th>
+                <th>Excersise</th>
+                <th>Progress</th>
+                <th>Deadline</th>
+                <th></th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                  
+                </td>
+               
+                <td data-label="Chapter">Algebra</td>
+                <td data-label="Excersise">1,2& 3</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="79">79</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Oct 25, 2020">18 April 2021</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                  
+                </td>
+               
+                <td data-label="Chapter">Wilson theorem</td>
+                <td data-label="Excersise">4 & 5</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="67">67</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Jan 8, 2020">18 April 2021</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                  
+                </td>
+               
+                <td data-label="Chapter">Quadratic equations</td>
+                <td data-label="Excersise">6,7,8 & 9</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="16">16</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Dec 18, 2020">19 April 2021</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                 
+                </td>
+               
+                <td data-label="Chapter">Trigonometry</td>
+                <td data-label="Excersise">10,11,12,13 & 14</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="71">71</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Sep 13, 2020">20 April 2021</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                 
+                </td>
+               
+                <td data-label="Chapter">Surfaces</td>
+                <td data-label="Excersise">15,16 & 17</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="80">80</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Jul 24, 2020">21 April 2021</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                  
+                </td>
+                
+                <td data-label="Chapter">Statistic and Probability</td>
+                <td data-label="Excersise">18,19 & 20</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="62">62</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Mar 30, 2020">24 April 2021</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+               
+                <td class="is-image-cell">
+                  
+                </td>
+                
+                  </div>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="notification">
+            <div class="level">
+              <div class="level-left">
+                <div class="level-item">
+                 
+                </div>
+              </div>
+              <div class="level-right">
+                <div class="level-item">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="notification is-info">
+      <div class="level">
+        <div class="level-left">
+          <div class="level-item">
+            <div>
+              <span class="icon"><i class="mdi mdi-buffer default"></i></span>
+              <b>SAT</b> English Section
+            </div>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+
+    <div class="card has-table has-table-container-upper-radius">
+      <div class="card-content">
+        <div class="b-table has-pagination">
+          <div class="table-wrapper has-mobile-cards">
+            <table class="table is-fullwidth is-striped is-hoverable is-fullwidth">
+              <thead>
+              <tr>
+               
+                
+                <th></th>
+                <th>Section</th>
+                <th>Chapter</th>
+                <th>Excersise</th>
+                <th>Progress</th>
+                <th>Deadline</th>
+                <th></th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+               
+                </td>
+                <td data-label="Name">Grammar 1</td>
+                <td data-label="City">1,2,3&4</td>
+                
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="79">79</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Oct 25, 2020">24 April 2021</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                  
+                </td>
+                <td data-label="Name">Grammar 2</td>
+                <td data-label="City">4,5,6,7 & 8</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="67">67</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Jan 8, 2020">Jan 8, 2020</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+               
+                </td>
+                <td data-label="Name">Listening 1</td>
+                <td data-label="City">9,10 & 11</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="16">16</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Dec 18, 2020">Dec 18, 2020</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                 
+                </td>
+                <td data-label="Name">Listening 2</td>
+                <td data-label="City">12,13,14& 15</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="71">71</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Sep 13, 2020">Sep 13, 2020</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                 
+                </td>
+                <td data-label="Name">Reading</td>
+                <td data-label="City">16,17 & 18</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="80">80</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Jul 24, 2020">Jul 24, 2020</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                
+                </td>
+                <td data-label="Name">Essay</td>
+                <td data-label="City">19 & 20</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="62">62</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Mar 30, 2020">Mar 30, 2020</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                
+
+              </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="notification">
+            <div class="level">
+              <div class="level-left">
+                <div class="level-item">
+                
+                </div>
+              </div>
+              <div class="level-right">
+                <div class="level-item">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="notification is-info">
+      <div class="level">
+        <div class="level-left">
+          <div class="level-item">
+            <div>
+              <span class="icon"><i class="mdi mdi-buffer default"></i></span>
+              <b>IELTS </b> English Section
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="card has-table">
+      <header class="card-header">
+        <p class="card-header-title">
+          <span class="icon"><i class="mdi mdi-account-multiple"></i></span>
+          Lectures
+        </p>
+        <a href="#" class="card-header-icon">
+          <span class="icon"><i class="mdi mdi-reload"></i></span>
+        </a>
+      </header>
+      <div class="card-content">
+        <div class="b-table has-pagination">
+          <div class="table-wrapper has-mobile-cards">
+            <table class="table is-fullwidth is-striped is-hoverable is-fullwidth">
+              <thead>
+              <tr>
+
+                <th></th>
+                <th>Section</th>
+                <th>Chapter</th>
+                <th>Excersise</th>
+                <th>Progress</th>
+                <th>Deadline</th>
+                <th></th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                  
+                </td>
+            
+                <td data-label="Chapter">Writing 1</td>
+                <td data-label="Excersise">1,2& 3</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="79">79</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Oct 25, 2020">18 April 2021</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                  
+                </td>
+                
+                <td data-label="Chapter">Writing 2</td>
+                <td data-label="Excersise">4 & 5</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="67">67</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Jan 8, 2020">18 April 2021</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                  
+                </td>
+                
+                <td data-label="Chapter">Listening 1</td>
+                <td data-label="Excersise">6,7,8 & 9</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="16">16</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Dec 18, 2020">19 April 2021</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                 
+                </td>
+                
+                <td data-label="Chapter">Listening 2</td>
+                <td data-label="Excersise">10,11,12,13 & 14</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="71">71</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Sep 13, 2020">20 April 2021</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                 
+                </td>
+                
+                <td data-label="Chapter">Reading</td>
+                <td data-label="Excersise">15,16 & 17</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="80">80</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Jul 24, 2020">21 April 2021</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                  
+                </td>
+                
+                <td data-label="Chapter">Speaking</td>
+                <td data-label="Excersise">18,19 & 20</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="62">62</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Mar 30, 2020">24 April 2021</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+               
+                <td class="is-image-cell">
+                  
+                </td>
+                
+                  </div>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="notification">
+            <div class="level">
+              <div class="level-left">
+                <div class="level-item">
+                 
+                </div>
+              </div>
+              <div class="level-right">
+                <div class="level-item">
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="notification is-info">
+      <div class="level">
+        <div class="level-left">
+          <div class="level-item">
+            <div>
+              <span class="icon"><i class="mdi mdi-buffer default"></i></span>
+              <b>Test DaF</b> German Section
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card has-table has-table-container-upper-radius">
+      <div class="card-content">
+        <div class="b-table has-pagination">
+          <div class="table-wrapper has-mobile-cards">
+            <table class="table is-fullwidth is-striped is-hoverable is-fullwidth">
+              <thead>
+              <tr>
+               
+                
+                <th></th>
+                <th>Abschnitt</th>
+                <th>Kapitel</th>
+                <th>Übung</th>
+                <th>Fortschritt</th>
+                <th>Srichtag</th>
+                <th></th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+               
+                </td>
+                <td data-label="Name">Grammatik 1</td>
+                <td data-label="City">1 bis 5</td>
+                
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="79">79</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Oct 25, 2020">24 April 2021</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                  
+                </td>
+                <td data-label="Name">Grammatik 2</td>
+                <td data-label="City">5 bis 9</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="67">67</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Jan 8, 2020">Jan 8, 2020</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+               
+                </td>
+                <td data-label="Name">Schreiben Teil</td>
+                <td data-label="City">10 und 11</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="16">16</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Dec 18, 2020">Dec 18, 2020</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                 
+                </td>
+                <td data-label="Name">Sprechen Teil</td>
+                <td data-label="City">12, 13 & 14</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="71">71</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Sep 13, 2020">Sep 13, 2020</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                 
+                </td>
+                <td data-label="Name">Horen Teil </td>
+                <td data-label="City">15,16 & 17</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="80">80</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Jul 24, 2020">Jul 24, 2020</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td class="is-checkbox-cell">
+                  <label class="b-checkbox checkbox">
+                    <input type="checkbox" value="false">
+                    <span class="check"></span>
+                  </label>
+                </td>
+                <td class="is-image-cell">
+                
+                </td>
+                <td data-label="Name">Leseverstehen</td>
+                <td data-label="City">18, 19 und 20</td>
+                <td data-label="Progress" class="is-progress-cell">
+                  <progress max="100" class="progress is-small is-primary" value="62">62</progress>
+                </td>
+                <td data-label="Created">
+                  <small class="has-text-grey is-abbr-like" title="Mar 30, 2020">Mar 30, 2020</small>
+                </td>
+                <td class="is-actions-cell">
+                  <div class="buttons is-right">
+                    <button class="button is-small is-primary" type="button">
+                      <span class="icon"><i class="mdi mdi-eye"></i></span>
+                    </button>
+                    <button class="button is-small is-danger jb-modal" data-target="sample-modal" type="button">
+                      <span class="icon"><i class="mdi mdi-trash-can"></i></span>
+                    </button>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                
+
+              </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="notification">
+            <div class="level">
+              <div class="level-left">
+                <div class="level-item">
+                
+                </div>
+              </div>
+              <div class="level-right">
+                <div class="level-item">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+ 
+          <div class="level-item">
+            <a href="https://github.com/vikdiesel/admin-one-bulma-dashboard" style="height: 20px">
+              <img src="https://img.shields.io/github/v/release/vikdiesel/admin-one-bulma-dashboard?color=%23999">
+            </a>
+          </div>
+        </div>
+        <div class="level-right">
+          <div class="level-item">
+            <div class="logo">
+           
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="sample-modal" class="modal">
+    <div class="modal-background jb-modal-close"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Confirm action</p>
+        <button class="delete jb-modal-close" aria-label="close"></button>
+      </header>
+      <section class="modal-card-body">
+        <p>This will permanently delete <b>Some Object</b></p>
+        <p>This is sample modal</p>
+      </section>
+      <footer class="modal-card-foot">
+        <button class="button jb-modal-close">Cancel</button>
+        <button class="button is-danger jb-modal-close">Delete</button>
+      </footer>
+    </div>
+    <button class="modal-close is-large jb-modal-close" aria-label="close"></button>
+  </div>
+</div>
+
+<!-- Scripts below are for demo only -->
+<script type="text/javascript" src="js/main.min.js"></script>
+
+<!-- Icons below are for demo only. Feel free to use any icon pack. Docs: https://bulma.io/documentation/elements/icon/ -->
+<link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css">
+</body>
+</html>
